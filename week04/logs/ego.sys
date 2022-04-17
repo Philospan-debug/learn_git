@@ -1,0 +1,12 @@
+{"lv":"warn","ts":1649604370,"msg":"no config... ","comp":"core.econf","addr":"config/local.toml","error":"default config not exist"}
+{"lv":"info","ts":1649604370,"msg":"init app","comp":"app","pid":4736,"coreNum":8}
+{"lv":"info","ts":1649604370,"msg":"init trace","comp":"app"}
+{"lv":"panic","ts":1649604370,"msg":"parse config error","comp":"server.egrpc","compName":"server.grpc","error":"server.grpc,err: invalid key, maybe not exist in config","key":"server.grpc","stack":"github.com/gotomicro/ego/core/elog.(*Component).Panic\n\tC:/Users/xiaoyan/go/pkg/mod/github.com/gotomicro/ego@v0.9.2/core/elog/component.go:262\ngithub.com/gotomicro/ego/server/egrpc.Load\n\tC:/Users/xiaoyan/go/pkg/mod/github.com/gotomicro/ego@v0.9.2/server/egrpc/container.go:30\nmain.main.func1\n\tD:/git_test/learn_git/week04/main.go:18\nmain.main\n\tD:/git_test/learn_git/week04/main.go:21\nruntime.main\n\tD:/Go1.14/src/runtime/proc.go:203"}
+{"lv":"info","ts":1649604403,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"D:\\git_test\\learn_git\\week04\\configs\\local.toml","realConfigFile":"D:\\git_test\\learn_git\\week04\\configs\\local.toml","fppath":"D:\\git_test\\learn_git\\week04\\configs\\local.toml"}
+{"lv":"info","ts":1649604403,"msg":"init config","comp":"core.econf","addr":"configs/local.toml"}
+{"lv":"info","ts":1649604403,"msg":"init app","comp":"app","pid":12252,"coreNum":8}
+{"lv":"info","ts":1649604403,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1649604403,"msg":"flag jobs name empty","comp":"task.ejob"}
+{"lv":"info","ts":1649604403,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9321"}
+{"lv":"info","ts":1649604642,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9321"}
+{"lv":"info","ts":1649604642,"msg":"stop Ego, bye!","comp":"app"}
